@@ -3,3 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html,
+body {
+    max-width: 1440px;
+    height: auto;
+    background-color: greenyellow;
+}
