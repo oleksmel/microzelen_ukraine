@@ -10,3 +10,23 @@ body {
     height: auto;
     background-color: greenyellow;
 }
+
+/************HEADER**************/
+
+.header {
+    position: relative;
+    width: 1440px;
+    height: 180px;
+    background-color: greenyellow;
+}
+
+.header_container {
+    width: 1200PX;
+    height: 120PX;
+    position: absolute;
+    top: 30px;
+    left: 120px;
+}
+
+/*************BLOCK_1**************/
+
