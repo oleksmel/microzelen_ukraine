@@ -6,8 +6,9 @@
 
 html,
 body {
-    max-width: 1440px;
-    height: auto;
+    font-family: 'Poppins', sans-serif;
+    width: 1440px;
+    height: 100%;
     background-color: greenyellow;
 }
 
@@ -15,7 +16,7 @@ body {
 
 .header {
     position: relative;
-    width: 1440px;
+    max-width: 1440px;
     height: 180px;
     background-color: greenyellow;
 }
@@ -26,12 +27,13 @@ body {
     position: absolute;
     top: 30px;
     left: 120px;
+    display: flex;
 }
 
 .header_logo {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 10px;
+    left: 10px;
     width: 100px;
     height: 100px;
 }
@@ -39,10 +41,23 @@ body {
 .nav_header {
     position: absolute;
     top: 50px;
-    left: 200px;
+    right: 200px;
+    width: 40px;
+    height: 500px;
     text-align: center;
-    text-decoration: none;
+    list-style: none;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
 }
 
 /*************BLOCK_1**************/
 
+.block_1 {
+    /*background-image: url(image/IMG_20230609_120117_659_converted.png);*/
+    position: relative;
+    width: 1440px;
+    height: 800px;
+}
